@@ -95,3 +95,13 @@ params:
       enable: true
       # hover | always
       display: hover
+
+  comments:
+    enable: false
+    type: giscus
+
+    giscus:
+      repo: Xienuli/dataeasy_guide
+      repoId: 900540916
+      category: General
+      categoryId: DIC_kwDONa0p9M4ClDkO
