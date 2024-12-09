@@ -66,10 +66,13 @@
         &lt;h2&gt;什么是⌈数据⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是数据&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%95%b0%e6%8d%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;广泛意义来说，任何有用的信息都可以称之为数据。&lt;/p&gt;
 &lt;h2&gt;什么是⌈数据库⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是数据库&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%95%b0%e6%8d%ae%e5%ba%93&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;数据库简而言之就是存储数据的仓库。
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%95%b0%e6%8d%ae%e5%ba%93&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;数据库简而言之就是存储数据的仓库。
 数据库（Database，DB）是以一定数据结构组织和存储数据、能够与多个用户共享、具有尽可能小的冗余度、与应用程序彼此独立的数据集合。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;什么是⌈数据库管理系统⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是数据库管理系统&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;通过数据库管理系统（DBMS）创建和操作数据库。
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;通过数据库管理系统（DBMS）创建和操作数据库。
 人们口中常说的“数据库”其实是数据库管理系统（Database Management System，DBMS），数据库管理系统是管理数据库的软件，我们并不直接访问数据库，而是通过DBMS访问和操作数据库中存储的数据。
 常见的数据库管理系统：&lt;/p&gt;
 &lt;table&gt;
@@ -133,6 +136,7 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;什么是⌈关系型数据库管理系统⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是关系型数据库管理系统&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e5%85%b3%e7%b3%bb%e5%9e%8b%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;关系模型是1970年Edgar F. Codd提出的一种以结构化方式管理数据的方法，而关系型数据库管理系统（RDBMS）是一种基于关系模型的数据库管理系统（DBMS）。&lt;/p&gt;
 &lt;h2&gt;数据是如何存储的？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;数据是如何存储的&#34;&gt;&lt;/span&gt;
