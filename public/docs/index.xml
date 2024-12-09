@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DataEasy – 教程</title>
-    <link>http://localhost:1313/github.io/dataeasy_guide/docs/</link>
+    <link>http://localhost:1313/dataeasy_guide/docs/</link>
     <description>Recent content in 教程 on DataEasy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 07 Dec 2024 13:46:59 +0800</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/github.io/dataeasy_guide/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/dataeasy_guide/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>学习路线</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/guide/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/guide/</link>
       <pubDate>Sat, 07 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/guide/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/guide/</guid>
       <description>
         
         
@@ -30,10 +30,10 @@
     
     <item>
       <title>Excel函数</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/excel/excel02/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/excel/excel02/</link>
       <pubDate>Sun, 08 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/excel/excel02/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/excel/excel02/</guid>
       <description>
         
         
@@ -43,10 +43,10 @@
     
     <item>
       <title>Excel基础</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/excel/excel01/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/excel/excel01/</link>
       <pubDate>Sat, 07 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/excel/excel01/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/excel/excel01/</guid>
       <description>
         
         
@@ -56,10 +56,10 @@
     
     <item>
       <title>教程标题1</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql01/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/sql/sql01/</link>
       <pubDate>Sat, 07 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql01/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/sql/sql01/</guid>
       <description>
         
         
@@ -69,10 +69,10 @@
     
     <item>
       <title>教程标题2</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql02/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/sql/sql02/</link>
       <pubDate>Sat, 07 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql02/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/sql/sql02/</guid>
       <description>
         
         
@@ -82,10 +82,10 @@
     
     <item>
       <title>教程标题3</title>
-      <link>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql03/</link>
+      <link>http://localhost:1313/dataeasy_guide/docs/sql/sql03/</link>
       <pubDate>Sat, 07 Dec 2024 13:46:58 +0800</pubDate>
       
-      <guid>http://localhost:1313/github.io/dataeasy_guide/docs/sql/sql03/</guid>
+      <guid>http://localhost:1313/dataeasy_guide/docs/sql/sql03/</guid>
       <description>
         
         
