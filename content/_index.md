@@ -12,9 +12,7 @@ title: 'DataEasy'
 >}}
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  DataEasy
-  <br class="sm:hx-block hx-hidden" />
-  面向小白的数据分析指南
+  DataEasy<br class="sm:hx-block hx-hidden" />数据分析指南
 {{< /hextra/hero-headline >}}
 </div>
 
