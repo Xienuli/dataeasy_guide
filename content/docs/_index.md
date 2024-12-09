@@ -4,7 +4,7 @@ draft: true
 title: '教程'
 toc: true
 weight: 1
-coments: true
+comments: true
 ---
 
 欢迎来到DataEasy数据分析指南！
