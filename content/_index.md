@@ -14,7 +14,6 @@ title: 'DataEasy'
 {{< hextra/hero-headline >}}
   DataEasy
   <br class="sm:hx-block hx-hidden" />
-  <br class="sm:hx-block hx-hidden" />
   面向小白的数据分析指南
 {{< /hextra/hero-headline >}}
 </div>
