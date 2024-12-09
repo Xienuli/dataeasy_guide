@@ -49,7 +49,7 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo.png
-      link: /dataeasy_guide
+      link: https://xienuli.github.io/dataeasy_guide/
       width: 20
       height: 10
     width: wide
