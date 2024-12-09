@@ -97,7 +97,7 @@ params:
       display: hover
 
   comments:
-    enable: false
+    enable: true
     type: giscus
 
     giscus:
@@ -105,3 +105,4 @@ params:
       repoId: 900540916
       category: General
       categoryId: DIC_kwDONa0p9M4ClDkO
+      lang: zh-cn
