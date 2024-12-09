@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // 
 
 (function () {
-  const searchDataURL = '/zh-cn.search-data.json';
+  const searchDataURL = '/Xienuli/dataeasy_guide/edit/main/content/zh-cn.search-data.json';
 
   const inputElements = document.querySelectorAll('.search-input');
   for (const el of inputElements) {
