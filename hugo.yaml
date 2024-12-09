@@ -52,11 +52,11 @@ params:
       link: /dataeasy_guide
       width: 20
       height: 10
-    width: full
+    width: wide
 
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: full
+    width: wide
 
   theme:
     # light | dark | system
@@ -67,7 +67,7 @@ params:
     enable: true
     displayCopyright: true
     displayPoweredBy: false
-    width: full
+    width: wide
 
   search:
     enable: true
