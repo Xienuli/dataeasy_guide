@@ -89,6 +89,7 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: publishDate
       sortOrder: desc # or "asc"
+      
   highlight:
     copy:
       enable: true
