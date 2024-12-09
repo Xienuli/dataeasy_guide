@@ -97,7 +97,7 @@
 &lt;h2&gt;什么是⌈关系型数据库管理系统⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是关系型数据库管理系统&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%af%e5%85%b3%e7%b3%bb%e5%9e%8b%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e7%b3%bb%e7%bb%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;关系模型是1970年Edgar F. Codd提出的一种以结构化方式管理数据的方法，而关系型数据库管理系统（RDBMS）是一种基于关系模型的数据库管理系统（DBMS）。&lt;/p&gt;
 &lt;h2&gt;数据是如何存储的？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;数据是如何存储的&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%95%b0%e6%8d%ae%e6%98%af%e5%a6%82%e4%bd%95%e5%ad%98%e5%82%a8%e7%9a%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;非关系型数据库
+    &lt;a href=&#34;#%e6%95%b0%e6%8d%ae%e6%98%af%e5%a6%82%e4%bd%95%e5%ad%98%e5%82%a8%e7%9a%84&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;非关系型数据库&lt;/strong&gt;
 在非关系型数据库中，数据以键值对的形式存储。&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
   
@@ -123,7 +123,7 @@
 
   
 &lt;/div&gt;
-&lt;p&gt;关系型数据库
+&lt;p&gt;&lt;strong&gt;关系型数据库&lt;/strong&gt;
 在关系型数据库中，数据以表格的形式存储。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
