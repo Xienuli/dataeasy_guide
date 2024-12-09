@@ -1,4 +1,4 @@
-baseURL: https://github.com/Xienuli/dataeasy_guide/
+baseURL: https://Xienuli/github.io/dataeasy_guide
 title: DataEasy
 defaultContentLanguage: zh-cn
 
@@ -36,7 +36,7 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/Xienuli/dataeasy"
+      url: "https://github.com/Xienuli/dataeasy_guide"
       params:
         icon: github
      

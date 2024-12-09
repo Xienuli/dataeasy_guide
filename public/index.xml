@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DataEasy – DataEasy</title>
-    <link>http://localhost:1313/Xienuli/dataeasy_guide/</link>
+    <link>http://localhost:1313/github.io/dataeasy_guide/</link>
     <description>Recent content on DataEasy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 07 Dec 2024 13:46:58 +0800</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/Xienuli/dataeasy_guide/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/github.io/dataeasy_guide/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/Xienuli/dataeasy_guide/blog/post1/</link>
+      <link>http://localhost:1313/github.io/dataeasy_guide/blog/post1/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Xienuli/dataeasy_guide/blog/post1/</guid>
+      <guid>http://localhost:1313/github.io/dataeasy_guide/blog/post1/</guid>
       <description>
         
         
@@ -30,10 +30,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/Xienuli/dataeasy_guide/blog/post2/</link>
+      <link>http://localhost:1313/github.io/dataeasy_guide/blog/post2/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Xienuli/dataeasy_guide/blog/post2/</guid>
+      <guid>http://localhost:1313/github.io/dataeasy_guide/blog/post2/</guid>
       <description>
         
         
@@ -44,10 +44,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/Xienuli/dataeasy_guide/blog/post3/</link>
+      <link>http://localhost:1313/github.io/dataeasy_guide/blog/post3/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Xienuli/dataeasy_guide/blog/post3/</guid>
+      <guid>http://localhost:1313/github.io/dataeasy_guide/blog/post3/</guid>
       <description>
         
         
