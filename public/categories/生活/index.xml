@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DataEasy – 生活</title>
+    <title>DataEasy - 数据分析指南 – 生活</title>
     <link>http://localhost:1313/dataeasy_guide/categories/%E7%94%9F%E6%B4%BB/</link>
-    <description>Recent content in 生活 on DataEasy</description>
+    <description>Recent content in 生活 on DataEasy - 数据分析指南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>

@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DataEasy – Tags</title>
+    <title>DataEasy - 数据分析指南 – Tags</title>
     <link>http://localhost:1313/dataeasy_guide/tags/</link>
-    <description>Recent content in Tags on DataEasy</description>
+    <description>Recent content in Tags on DataEasy - 数据分析指南</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
