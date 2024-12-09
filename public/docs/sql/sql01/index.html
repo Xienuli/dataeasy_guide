@@ -117,7 +117,7 @@
 排名 数据库管理系统 数据库模型 1 Oracle Relational, Multi-model 2 MySQL Relational, Multi-model 3 Microsoft SQL Server Relational, Multi-model 4 PostgreSQL Relational, Multi-model 5 MongoDB Document, Multi-model 6 Redis Key-value, Multi-model 7 Snowflake Relational 8 Elasticsearch Multi-model 9 IBM Db2 Relational, Multi-model 10 SQLite Relational 什么是⌈关系型数据库管理系统⌋？ 关系模型是1970年Edgar F. Codd提出的一种以结构化方式管理数据的方法，而关系型数据库管理系统（RDBMS）是一种基于关系模型的数据库管理系统（DBMS）。">
   <meta itemprop="datePublished" content="2024-12-07T13:46:58+08:00">
   <meta itemprop="dateModified" content="2024-12-07T13:46:58+08:00">
-  <meta itemprop="wordCount" content="88">
+  <meta itemprop="wordCount" content="105">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="基础概念">
   <meta name="twitter:description" content="什么是⌈数据⌋？ 广泛意义来说，任何有用的信息都可以称之为数据。
@@ -354,6 +354,24 @@
                 class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
               >数据是如何存储的？</a>
             </li>
+          <li>
+              <a
+                href="#%e4%bb%80%e4%b9%88%e6%98%afsql"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >什么是⌈SQL⌋？</a>
+            </li>
+          <li>
+              <a
+                href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%a0%87%e5%87%86"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >什么是⌈SQL标准⌋？</a>
+            </li>
+          <li>
+              <a
+                href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%96%b9%e8%a8%80"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+              >什么是⌈SQL方言⌋？</a>
+            </li>
           </ul>
   
               
@@ -586,6 +604,18 @@
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e6%95%b0%e6%8d%ae%e6%98%af%e5%a6%82%e4%bd%95%e5%ad%98%e5%82%a8%e7%9a%84">数据是如何存储的？
         </a>
+      </li></ul><ul>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bb%80%e4%b9%88%e6%98%afsql">什么是⌈SQL⌋？
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%a0%87%e5%87%86">什么是⌈SQL标准⌋？
+        </a>
+      </li>
+      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
+        <a class="hx-font-semibold hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%96%b9%e8%a8%80">什么是⌈SQL方言⌋？
+        </a>
       </li></ul>
       <div class="hx-mt-8 hx-border-t hx-bg-white hx-pt-8 hx-shadow-[0_-12px_16px_white] dark:hx-bg-dark dark:hx-shadow-[0_-12px_16px_#111] hx-sticky hx-bottom-0 hx-flex hx-flex-col hx-items-start hx-gap-2 hx-pb-8 dark:hx-border-neutral-800 contrast-more:hx-border-t contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-border-neutral-400"><a class="hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50" href="https://github.com/Xienuli/dataeasy/edit/main/content/docs/sql/sql01.md" target="_blank" rel="noreferer">在 GitHub 上编辑此页 →</a>
         <button aria-hidden="true" id="backToTop" onClick="scrollUp();" class="hx-transition-all hx-duration-75 hx-opacity-0 hx-text-xs hx-font-medium hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-100 contrast-more:hx-text-gray-800 contrast-more:dark:hx-text-gray-50">
@@ -739,6 +769,20 @@
       </tr>
   </tbody>
 </table>
+<h1>SQL概述</h1><h2>什么是⌈SQL⌋？<span class="hx-absolute -hx-mt-20" id="什么是sql"></span>
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%afsql" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>SQL是Structured Query Language的简称，即结构化查询语言，用于检索和管理关系型数据库中的数据。</p>
+<h2>什么是⌈SQL标准⌋？<span class="hx-absolute -hx-mt-20" id="什么是sql标准"></span>
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%a0%87%e5%87%86" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>为了规范跨数据库产品的SQL语法结构和行为，美国国家标准学会（ANSI）于1986年发布了第一个SQL标准，并在1987年成为国际标准化组织（ISO）标准。
+此后，ANSI不断向SQL标准中添加新的功能和命令。
+<br/>目前，SQL标准由ANSI和国际标准化组织（ISO）共同维护。</p>
+<h2>什么是⌈SQL方言⌋？<span class="hx-absolute -hx-mt-20" id="什么是sql方言"></span>
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%96%b9%e8%a8%80" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>虽然存在SQL标准，但是由于开源社区开发的RDBMS（例如:MySQL和PostgreSQL等开源数据库）不断增加一些ANSI 和 ISO 尚未开发的新特性和功能，导致了SQL代码在不同的数据库管理系统中并不完全具备跨平台性。以下是一些较为流行的SQL方言：</p>
+<ul>
+<li>PL/SQL</li>
+<li>Transact-SQL</li>
+<li>PL/pgSQL</li>
+<li>MySQL</li>
+</ul>
 
         </div>
         <div class="hx-mt-16"></div>

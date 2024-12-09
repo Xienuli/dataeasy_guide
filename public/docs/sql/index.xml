@@ -150,6 +150,20 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h1&gt;SQL概述&lt;/h1&gt;&lt;h2&gt;什么是⌈SQL⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是sql&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afsql&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;SQL是Structured Query Language的简称，即结构化查询语言，用于检索和管理关系型数据库中的数据。&lt;/p&gt;
+&lt;h2&gt;什么是⌈SQL标准⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是sql标准&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%a0%87%e5%87%86&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;为了规范跨数据库产品的SQL语法结构和行为，美国国家标准学会（ANSI）于1986年发布了第一个SQL标准，并在1987年成为国际标准化组织（ISO）标准。
+此后，ANSI不断向SQL标准中添加新的功能和命令。
+&lt;br/&gt;目前，SQL标准由ANSI和国际标准化组织（ISO）共同维护。&lt;/p&gt;
+&lt;h2&gt;什么是⌈SQL方言⌋？&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;什么是sql方言&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afsql%e6%96%b9%e8%a8%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;虽然存在SQL标准，但是由于开源社区开发的RDBMS（例如:MySQL和PostgreSQL等开源数据库）不断增加一些ANSI 和 ISO 尚未开发的新特性和功能，导致了SQL代码在不同的数据库管理系统中并不完全具备跨平台性。以下是一些较为流行的SQL方言：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PL/SQL&lt;/li&gt;
+&lt;li&gt;Transact-SQL&lt;/li&gt;
+&lt;li&gt;PL/pgSQL&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
