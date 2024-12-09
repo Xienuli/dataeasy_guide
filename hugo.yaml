@@ -49,7 +49,7 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo.png
-      link: /
+      link: /dataeasy_guide
       width: 20
       height: 10
     width: full
