@@ -1,0 +1,76 @@
+# 用于构建 Hugo 站点并将其部署到 GitHub Pages 的示例工作流程
+name: Deploy Hugo site to Pages
+
+on:
+  # 由默认分支触发
+  push:
+    branches: ["main"]
+
+  # 允许手动运行
+  workflow_dispatch:
+
+# 设置 GITHUB_TOKEN 的权限以允许部署到 GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 仅允许一项并发部署，跳过正在进行的运行和最新排队的运行之间排队的运行
+# 但是，不要取消正在进行的运行，因为我们希望完成这些生产部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# 默认为 bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # 开始构建
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.121.2
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取 .GitInfo 和 .Lastmod 的所有历史记录
+          submodules: recursive
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.21'
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+      - name: Setup Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+      - name: Build with Hugo
+        env:
+          # 最大程度地向后兼容 Hugo 模块
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # 开始部署
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
