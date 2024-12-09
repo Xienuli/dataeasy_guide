@@ -47,8 +47,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/favicon.ico
-      dark: images/favicon.ico
+      path: images/favicon.png
+      dark: images/favicon.png
     width: wide
 
   page:
