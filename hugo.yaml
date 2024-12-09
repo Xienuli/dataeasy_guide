@@ -1,6 +1,6 @@
 baseURL: https://xienuli.github.io/dataeasy_guide/
 title: DataEasy - 数据分析指南
-defaultContentLanguage: zh-cn
+languageCode : zh-cn
 
 
 module:
