@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DataEasy – BI工具</title>
+    <link>http://localhost:1313/docs/bi/</link>
+    <description>Recent content in BI工具 on DataEasy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 07 Dec 2024 13:46:58 +0800</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/bi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
